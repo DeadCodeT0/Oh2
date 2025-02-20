@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* إعدادات عامة */
+:root {
+  --background-blur: rgba(25, 25, 25, 0.7);
+  --background-dark: #1a1a1a;
+  --background-light: #2c2f33;
+  --background-accent: #3a3d41;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-color: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --primary-color: #7289da;
+  --primary-hover: #5a6ebc;
+  --button-bg: rgba(114, 137, 218, 0.1);
+  --button-hover: rgba(114, 137, 218, 0.3);
+}
+
+/* تغيير الخلفية الرئيسية */
+body {
+  background: url('https://source.unsplash.com/1600x900/?galaxy,stars') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* تحسين مظهر النوافذ */
+.appMount-2yBXZl {
+  background: var(--background-blur) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* تغيير مظهر القوائم */
+.sidebar-2K8pFh {
+  background: var(--background-dark) !important;
+  border-right: 1px solid var(--border-color);
+}
+
+/* تخصيص شريط الأصدقاء والقنوات */
+.container-2cd8Mz {
+  background: var(--background-light) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* تحسين مظهر الأزرار */
+.button-3bklZh {
+  background: var(--button-bg);
+  color: var(--text-color);
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-3bklZh:hover {
+  background: var(--button-hover);
+}
+
+/* تخصيص ألوان النصوص */
+.title-3qD0b- {
+  color: var(--text-color);
+}
+
+.subtitle-3w5BSv {
+  color: var(--text-muted);
+}
+
+/* تحسين مظهر صندوق الكتابة */
+.textarea-2r0oV8 {
+  background: var(--background-accent);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.textarea-2r0oV8:focus {
+  border-color: var(--primary-color);
+}
+
+/* تأثيرات على الرسائل */
+.message-2CShn3 {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* تحسين مظهر الأعضاء */
+.member-2gU6Ar {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 8px;
+  transition: all 0.3s;
+}
+
+.member-2gU6Ar:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
